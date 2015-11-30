@@ -2,28 +2,60 @@
  "name": "RapidPrototyping",
  "children": [
   {
-   "name": "Patent",
+   "name": "3DPrinting",
    "children": [
-     {"name": "General3DPrinting", "size": 1234},
-     {"name": "DirectedEnergyDeposition", "size": 1234},
-     {"name": "ExtrusionProcess", "size": 1234},
-     {"name": "LayerLaminateMethod", "size": 1234},
-     {"name": "Polymerization", "size": 1234},
-     {"name": "Sintering", "size": 1234},
-     {"name": "SprayingProcess", "size": 1234}
+     {"name": "L:3D Printing", "size": 7628},
+     {"name": "P:3D Printing", "size": 7967}
     ]
   },
-    {
-   "name": "Literature",
+  
+  {
+   "name": "Directed Energy Deposition",
    "children": [
-     {"name": "General3DPrinting", "size": 1234},
-     {"name": "DirectedEnergyDeposition", "size": 1234},
-     {"name": "ExtrusionProcess", "size": 1234},
-     {"name": "LayerLaminateMethod", "size": 1234},
-     {"name": "Polymerization", "size": 1234},
-     {"name": "Sintering", "size": 1234},
-     {"name": "SprayingProcess", "size": 1234}
+     {"name": "L:Directed Energy Deposition", "size": 42},
+     {"name": "P:Directed Energy Deposition", "size": 24}
+    ]
+  },
+  
+    {
+   "name": "Extrusion Process",
+   "children": [
+     {"name": "L:Extrusion Process", "size": 974},
+     {"name": "P:Extrusion Process", "size": 532}
+    ]
+  },
+  
+    {
+   "name": "Layer Laminate Method",
+   "children": [
+     {"name": "L:Layer Laminate Method", "size": 354},
+     {"name": "P:Layer Laminate Method", "size": 164}
+    ]
+  },
+  
+    {
+   "name": "Polymerization",
+   "children": [
+     {"name": "L:Polymerization", "size": 3179},
+     {"name": "P:Polymerization", "size": 1850}
+    ]
+  },
+  
+    {
+   "name": "Sintering",
+   "children": [
+     {"name": "L:Sintering", "size": 3181},
+     {"name": "P:Sintering", "size": 1319}
+    ]
+  },
+  
+    {
+   "name": "Spraying Process",
+   "children": [
+     {"name": "L:Spraying Process", "size": 12},
+     {"name": "P:Spraying Process", "size": 17}
     ]
   }
-  ]
+  
+ ]
 }
