@@ -4,19 +4,8 @@
   {
    "name": "3DPrinting",
    "children": [
-	{
-	"name": "literature",
-	"children": [
-	{"name": "L:3D Printing", "size": 7628}
-	]
-	},
-	
-	{
-	"name": "Patent",
-	"children": [
-	{"name": "P:3D Printing", "size": 7967}
-	]
-	}
+     {"name": "L:3D Printing", "size": 7628},
+     {"name": "P:3D Printing", "size": 7967}
     ]
   },
   
