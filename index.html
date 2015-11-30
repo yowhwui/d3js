@@ -3,7 +3,7 @@
 <style>
 
 text {
-  font: 24px sans-serif;
+  font: 14px sans-serif;
 }
 
 </style>
@@ -36,7 +36,7 @@ d3.json("flare.json", function(error, root) {
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
   node.append("title")
-      .text(function(d) { return d.className + ": " + format(d.value); });
+      .text(function(d) { return d.className + " Total Documents: " + format(d.value); });
 
   node.append("circle")
       .attr("r", function(d) { return d.r; })
